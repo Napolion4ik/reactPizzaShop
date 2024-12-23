@@ -11,7 +11,7 @@ const Header = () => {
             <img width="38" src={logo} alt="Pizza logo" />
             <div>
               <h1>Mamamia Pizza</h1>
-              <p>самая вкусная пицца во вселенной</p>
+              <p>навіть італійці в шоці від нашої піцци</p>
             </div>
           </div>
         </Link>

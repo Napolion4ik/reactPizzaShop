@@ -32,7 +32,7 @@ const CartIsFilled = () => {
         />
     ));
     const handlerCleanUp = () => {
-        if (window.confirm("Вы действительно хотите очистить корзину ?")) {
+        if (window.confirm("Ви дійсно хочите створити чорну діру?")) {
             dispatch(cleanUpCart());
         }
     };
@@ -80,17 +80,17 @@ const CartIsFilled = () => {
                         />
                     </svg>
 
-                    <span>Очистить корзину</span>
+                    <span>Очистити корзину</span>
                 </div>
             </div>
             <div className="content__items">{pizzasGroup}</div>
             <div className="cart__bottom">
                 <div className="cart__bottom-details">
                     <span>
-                        Всего пицц: <b>{totalCount} шт.</b>{" "}
+                        Всього піцц: <b>{totalCount} шт.</b>{" "}
                     </span>
                     <span>
-                        Сумма заказа: <b>{totalPrice} ₽</b>{" "}
+                        Сума замовлення: <b>{totalPrice} ₽</b>{" "}
                     </span>
                 </div>
                 <div className="cart__bottom-buttons">
@@ -98,10 +98,10 @@ const CartIsFilled = () => {
                         to="/"
                         className="button button--outline button--add go-back-btn"
                     >
-                        <span>Вернуться назад</span>
+                        <span>Повернутися назад</span>
                     </Link>
                     <div className="button pay-btn">
-                        <span>Оплатить сейчас</span>
+                        <span>Заплатити зараз</span>
                     </div>
                 </div>
             </div>

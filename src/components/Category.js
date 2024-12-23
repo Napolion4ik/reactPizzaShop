@@ -12,7 +12,7 @@ const Category = React.memo(({ items, onClickItem, activeCategory }) => {
                     className={activeCategory === null ? "active" : ""}
                     onClick={() => onSelectItem(null)}
                 >
-                    Все
+                    Всі
                 </li>
                 {items.map((item, index) => (
                     <li

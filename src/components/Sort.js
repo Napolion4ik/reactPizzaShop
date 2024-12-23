@@ -40,7 +40,7 @@ const Sort = React.memo(({ items, onSelectSortType, activeItem }) => {
                         fill="#2C2C2C"
                     />
                 </svg>
-                <b>Сортировка по:</b>
+                <b>Сортувати по:</b>
                 <span onClick={toggleVisiblePopup}>
                     {items.find((obj) => obj.type === activeItem).name}
                 </span>

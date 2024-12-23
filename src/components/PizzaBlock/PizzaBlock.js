@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addPizzaToCart } from "../../redux/action/cart";
 
 function PizzaBlock({ id, imageUrl, name, price, types, sizes, onAddPizza }) {
-    const typesNames = ["тонкое", "традиционное"];
+    const typesNames = ["тонке", "традиційне"];
     const avaibleSizes = [26, 30, 40];
     const [activeType, setActiveType] = useState(types[0]);
     const [activeSize, setActiveSize] = useState(0);
@@ -81,7 +81,7 @@ function PizzaBlock({ id, imageUrl, name, price, types, sizes, onAddPizza }) {
                             fill="white"
                         />
                     </svg>
-                    <span>Добавить</span>
+                    <span>Додати</span>
                     {items[id] && <i>{items[id].length}</i>}
                 </div>
             </div>

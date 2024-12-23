@@ -28,7 +28,7 @@ function CartItem({
             <div className="cart__item-info">
                 <h3>{name}</h3>
                 <p>
-                    {type} тесто, {size} см.
+                    {type} тісто, {size} см.
                 </p>
             </div>
             <div className="cart__item-count">
@@ -47,7 +47,7 @@ function CartItem({
                 </div>
             </div>
             <div className="cart__item-price">
-                <b>{price} ₽</b>
+                <b>{price} грн</b>
             </div>
             <div className="cart__item-remove">
                 <button
